@@ -12,7 +12,7 @@ on:
         description: 'ImmortalWrt 仓库的名字 (Name of ImmortalWrt repo)'
         type: string
         required: true
-        default: 'immortalwrt-mt798x-512M'
+        default: 'immortalwrt-mt798x-512m'
       branch:
         description: 'ImmortalWrt 仓库的分支 (Branch of ImmortalWrt repo)'
         type: string
