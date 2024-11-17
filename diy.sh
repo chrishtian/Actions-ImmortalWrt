@@ -3,9 +3,9 @@
 # git clone --depth=1 https://github.com/EOYOHOO/UA2F.git package/UA2F
 # git clone --depth=1 https://github.com/EOYOHOO/rkp-ipid.git package/rkp-ipid
 git clone https://github.com/kenzok8/small-package ImmortalWrt/small-package
-rm -rfv feeds/luci/applications/luci-app-passwall
-mv small-package/luci-app-passwall feeds/luci/applications/
-rm -rfv feeds/packages/net/mwan3
-mv small-package/mwan3 feeds/packages/net/
-rm -rfv feeds/luci/applications/luci-app-lucky
-mv small-package/luci-app-lucky feeds/luci/applications/
+rm -rfv ImmortalWrt/feeds/luci/applications/luci-app-passwall
+mv ImmortalWrt/small-package/luci-app-passwall ImmortalWrt/feeds/luci/applications/
+rm -rfv ImmortalWrt/feeds/packages/net/mwan3
+mv ImmortalWrt/small-package/mwan3 ImmortalWrt/feeds/packages/net/
+rm -rfv ImmortalWrt/feeds/luci/applications/luci-app-lucky
+mv ImmortalWrt/small-package/luci-app-lucky ImmortalWrt/feeds/luci/applications/
