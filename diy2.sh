@@ -11,8 +11,10 @@
 #
 
 git clone https://github.com/kenzok8/small-package
+# install passwall
 rm -rfv feeds/luci/applications/luci-app-passwall
 mv small-package/luci-app-passwall feeds/luci/applications/
+# install mwan3
 rm -rfv feeds/packages/net/mwan3
 mv small-package/mwan3 feeds/packages/net/
 # install lucky
