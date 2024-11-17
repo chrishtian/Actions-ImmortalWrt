@@ -15,5 +15,6 @@ rm -rfv feeds/luci/applications/luci-app-passwall
 mv small-package/luci-app-passwall feeds/luci/applications/
 rm -rfv feeds/packages/net/mwan3
 mv small-package/mwan3 feeds/packages/net/
+# install lucky
 rm -rfv feeds/luci/applications/luci-app-lucky
 mv small-package/luci-app-lucky feeds/luci/applications/
